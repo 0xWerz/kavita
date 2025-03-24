@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/_services/filter.service.ts"],
+  "sourcesContent": ["import { Injectable } from '@angular/core';\nimport {SeriesFilterV2} from \"../_models/metadata/v2/series-filter-v2\";\nimport {environment} from \"../../environments/environment\";\nimport { HttpClient } from \"@angular/common/http\";\nimport {JumpKey} from \"../_models/jumpbar/jump-key\";\nimport {SmartFilter} from \"../_models/metadata/v2/smart-filter\";\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class FilterService {\n\n  baseUrl = environment.apiUrl;\n  constructor(private httpClient: HttpClient) { }\n\n  saveFilter(filter: SeriesFilterV2) {\n    return this.httpClient.post(this.baseUrl + 'filter/update', filter);\n  }\n  getAllFilters() {\n    return this.httpClient.get<Array<SmartFilter>>(this.baseUrl + 'filter');\n  }\n  deleteFilter(filterId: number) {\n    return this.httpClient.delete(this.baseUrl + 'filter?filterId=' + filterId);\n  }\n\n}\n"],
+  "mappings": ";;;;;;;;;;AAUM,IAAO,gBAAP,MAAO,eAAa;EAGxB,YAAoB,YAAsB;AAAtB,SAAA,aAAA;AADpB,SAAA,UAAU,YAAY;EACwB;EAE9C,WAAW,QAAsB;AAC/B,WAAO,KAAK,WAAW,KAAK,KAAK,UAAU,iBAAiB,MAAM;EACpE;EACA,gBAAa;AACX,WAAO,KAAK,WAAW,IAAwB,KAAK,UAAU,QAAQ;EACxE;EACA,aAAa,UAAgB;AAC3B,WAAO,KAAK,WAAW,OAAO,KAAK,UAAU,qBAAqB,QAAQ;EAC5E;;;uCAbW,gBAAa,mBAAA,UAAA,CAAA;IAAA;EAAA;;4DAAb,gBAAa,SAAb,eAAa,WAAA,YAFZ,OAAM,CAAA;EAAA;;",
+  "names": []
+}

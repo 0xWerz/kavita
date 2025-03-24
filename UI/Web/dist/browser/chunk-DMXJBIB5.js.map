@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/_pipes/default-date.pipe.ts"],
+  "sourcesContent": ["import { Pipe, PipeTransform } from '@angular/core';\nimport {TranslocoService} from \"@jsverse/transloco\";\n\n@Pipe({\n  name: 'defaultDate',\n  pure: true,\n  standalone: true\n})\nexport class DefaultDatePipe implements PipeTransform {\n\n  constructor(private translocoService: TranslocoService) {\n  }\n  transform(value: any, replacementString = 'default-date-pipe.never'): string {\n    if (value === null || value === undefined || value === '' || value === Infinity || Number.isNaN(value) || value === '1/1/01') {\n      return this.translocoService.translate(replacementString);\n    };\n    return value;\n  }\n\n}\n"],
+  "mappings": ";;;;;;;AAQM,IAAO,kBAAP,MAAO,iBAAe;EAE1B,YAAoB,kBAAkC;AAAlC,SAAA,mBAAA;EACpB;EACA,UAAU,OAAY,oBAAoB,2BAAyB;AACjE,QAAI,UAAU,QAAQ,UAAU,UAAa,UAAU,MAAM,UAAU,YAAY,OAAO,MAAM,KAAK,KAAK,UAAU,UAAU;AAC5H,aAAO,KAAK,iBAAiB,UAAU,iBAAiB;IAC1D;AAAC;AACD,WAAO;EACT;;;uCATW,kBAAe,4BAAA,kBAAA,EAAA,CAAA;IAAA;EAAA;;0EAAf,kBAAe,MAAA,MAAA,YAAA,KAAA,CAAA;EAAA;;",
+  "names": []
+}

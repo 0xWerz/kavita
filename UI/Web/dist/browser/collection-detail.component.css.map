@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/collections/_components/collection-detail/collection-detail.component.scss"],
+  "sourcesContent": [".main-container {\n  margin-top: 10px;\n  padding: 0 0 0 10px;\n}\n\n\n.poster {\n  width: 100%;\n  max-width: 300px;\n}\n\n@media(max-width: var(--grid-breakpoints-sm)) {\n  .poster {\n    display: none;\n  }\n}\n\n@media(max-width: var(--grid-breakpoints-sm)) {\n  .read-btn--text {\n    display: none;\n  }\n}\n\n.card-container {\n  display: grid;\n  grid-template-columns: repeat(auto-fill, 160px);\n  grid-gap: 0.5rem;\n  justify-content: space-around;\n  padding-bottom: 20px;\n}\n\n\n.virtual-scroller, virtual-scroller {\n  width: 100%;\n  height: calc(100vh - 85px);\n  max-height: calc(var(--vh)*100 - 170px);\n}\n\nh2 {\n  margin-bottom: 0;\n  word-break: break-all;\n}\n\n.under-image {\n  background-color: var(--breadcrumb-bg-color);\n  color: white;\n  border-bottom-left-radius: 5px;\n  border-bottom-right-radius: 5px;\n  text-align: center;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,cAAA;AACA,WAAA,EAAA,EAAA,EAAA;;AAIF,CAAA;AACE,SAAA;AACA,aAAA;;AAGF,OAAA,CAAA,SAAA,EAAA,IAAA;AACE,GANF;AAOI,aAAA;;;AAIJ,OAAA,CAAA,SAAA,EAAA,IAAA;AACE,GAAA;AACE,aAAA;;;AAIJ,CAAA;AACE,WAAA;AACA,yBAAA,OAAA,SAAA,EAAA;AACA,YAAA;AACA,mBAAA;AACA,kBAAA;;AAIF,CAAA;AAAA;AACE,SAAA;AACA,UAAA,KAAA,MAAA,EAAA;AACA,cAAA,KAAA,IAAA,MAAA,EAAA,IAAA,EAAA;;AAGF;AACE,iBAAA;AACA,cAAA;;AAGF,CAAA;AACE,oBAAA,IAAA;AACA,SAAA;AACA,6BAAA;AACA,8BAAA;AACA,cAAA;;",
+  "names": []
+}

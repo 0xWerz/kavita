@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/admin/manage-library/manage-library.component.scss"],
+  "sourcesContent": ["@import \"../../../theme/variables\";\n\n.custom-position {\n    right: 15px;\n    top: -42px;\n}\n\n.custom-position-2 {\n  right: 160px;\n  top: -42px;\n}\n\n@media(max-width: 576px) {\n  .custom-position-2 {\n    right: 65px;\n  }\n}\n\n\n\n.member-name {\n    word-break: keep-all;\n    margin: 0;\n}\n\n.list-group-item:nth-child(even) {\n    background-color: var(--elevation-layer1);\n}\n\n.table {\n    @media (max-width: $grid-breakpoints-sm) {\n        overflow-x: auto;\n        width: 100% !important;\n        display: block;\n    }\n    .btn-container {\n        @media (max-width: $grid-breakpoints-lg) {\n            display: flex;\n            flex-direction: row;\n            flex-wrap: wrap;\n            align-items: center;\n            justify-content: center;\n        }\n        .btn {\n            width: 32px;\n        }\n    }\n}\n"],
+  "mappings": ";AAEA,CAAA;AACI,SAAA;AACA,OAAA;;AAGJ,CAAA;AACE,SAAA;AACA,OAAA;;AAGF,OAAA,CAAA,SAAA,EAAA;AACE,GANF;AAOI,WAAA;;;AAMJ,CAAA;AACI,cAAA;AACA,UAAA;;AAGJ,CAAA,eAAA;AACI,oBAAA,IAAA;;AAIA,OAAA,CAAA,SAAA,EAAA;AADJ,GAAA;AAEQ,gBAAA;AACA,WAAA;AACA,aAAA;;;AAGA,OAAA,CAAA,SAAA,EAAA;AADJ,GANJ,MAMI,CAAA;AAEQ,aAAA;AACA,oBAAA;AACA,eAAA;AACA,iBAAA;AACA,qBAAA;;;AAEJ,CAdR,MAcQ,CARJ,cAQI,CAAA;AACI,SAAA;;",
+  "names": []
+}

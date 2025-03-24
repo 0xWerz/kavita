@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/_models/sidenav/sidenav-stream-type.enum.ts"],
+  "sourcesContent": ["export enum SideNavStreamType {\n  Collections = 1,\n  ReadingLists = 2,\n  Bookmarks = 3,\n  Library = 4,\n  SmartFilter = 5,\n  ExternalSource = 6,\n  AllSeries = 7,\n  WantToRead = 8,\n  BrowseAuthors = 9\n}\n"],
+  "mappings": ";AAAA,IAAY;CAAZ,SAAYA,oBAAiB;AAC3B,EAAAA,mBAAAA,mBAAA,aAAA,IAAA,CAAA,IAAA;AACA,EAAAA,mBAAAA,mBAAA,cAAA,IAAA,CAAA,IAAA;AACA,EAAAA,mBAAAA,mBAAA,WAAA,IAAA,CAAA,IAAA;AACA,EAAAA,mBAAAA,mBAAA,SAAA,IAAA,CAAA,IAAA;AACA,EAAAA,mBAAAA,mBAAA,aAAA,IAAA,CAAA,IAAA;AACA,EAAAA,mBAAAA,mBAAA,gBAAA,IAAA,CAAA,IAAA;AACA,EAAAA,mBAAAA,mBAAA,WAAA,IAAA,CAAA,IAAA;AACA,EAAAA,mBAAAA,mBAAA,YAAA,IAAA,CAAA,IAAA;AACA,EAAAA,mBAAAA,mBAAA,eAAA,IAAA,CAAA,IAAA;AACF,GAVY,sBAAA,oBAAiB,CAAA,EAAA;",
+  "names": ["SideNavStreamType"]
+}

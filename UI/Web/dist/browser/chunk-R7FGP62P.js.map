@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/_pipes/safe-url.pipe.ts"],
+  "sourcesContent": ["import { inject } from '@angular/core';\nimport { Pipe, PipeTransform, SecurityContext } from '@angular/core';\nimport { DomSanitizer } from '@angular/platform-browser';\n\n@Pipe({\n  name: 'safeUrl',\n  pure: true,\n  standalone: true\n})\nexport class SafeUrlPipe implements PipeTransform {\n  private readonly dom: DomSanitizer = inject(DomSanitizer);\n  constructor() {}\n\n  transform(value: string | null | undefined): string | null {\n    if (value === null || value === undefined) return null;\n    return this.dom.sanitize(SecurityContext.URL, value);\n  }\n\n}\n"],
+  "mappings": ";;;;;;;;;;AASM,IAAO,cAAP,MAAO,aAAW;EAEtB,cAAA;AADiB,SAAA,MAAoB,OAAO,YAAY;EACzC;EAEf,UAAU,OAAgC;AACxC,QAAI,UAAU,QAAQ,UAAU;AAAW,aAAO;AAClD,WAAO,KAAK,IAAI,SAAS,gBAAgB,KAAK,KAAK;EACrD;;;uCAPW,cAAW;IAAA;EAAA;;sEAAX,cAAW,MAAA,MAAA,YAAA,KAAA,CAAA;EAAA;;",
+  "names": []
+}

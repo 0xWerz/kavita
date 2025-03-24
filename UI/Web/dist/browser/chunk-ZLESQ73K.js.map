@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/_models/default-modal-options.ts"],
+  "sourcesContent": ["export const DefaultModalOptions = {scrollable: true, size: 'xl', fullscreen: 'xl'};\n"],
+  "mappings": ";AAAO,IAAM,sBAAsB,EAAC,YAAY,MAAM,MAAM,MAAM,YAAY,KAAI;",
+  "names": []
+}

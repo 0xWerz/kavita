@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/sidenav/_components/dashboard-stream-list-item/dashboard-stream-list-item.component.scss"],
+  "sourcesContent": ["@import \"../../../../theme/variables\";\n\n.list-item {\n  height: 60px;\n  max-height: 60px;\n}\n\n.meta {\n  display: flex;\n}\n\n@media (max-width: $grid-breakpoints-sm) {\n  .list-item div h5 span:first-of-type {\n    font-size: 1rem !important;\n  }\n}"],
+  "mappings": ";AAEA,CAAA;AACE,UAAA;AACA,cAAA;;AAGF,CAAA;AACE,WAAA;;AAGF,OAAA,CAAA,SAAA,EAAA;AACE,GAVF,UAUE,IAAA,GAAA,IAAA;AACE,eAAA;;;",
+  "names": []
+}

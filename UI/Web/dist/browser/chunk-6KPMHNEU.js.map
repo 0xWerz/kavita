@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/_models/metadata/age-rating.ts"],
+  "sourcesContent": ["export enum AgeRating {\n    /**\n     * This is not a valid state for Series/Chapters, but used for Restricted Profiles\n     */\n    NotApplicable = -1,\n    Unknown = 0,\n    RatingPending = 1,\n    EarlyChildhood = 2,\n    Everyone = 3,\n    G = 4,\n    Everyone10Plus = 5,\n    PG = 6,\n    KidsToAdults = 7,\n    Teen = 8,\n    Mature15Plus = 9,\n    Mature17Plus = 10,\n    Mature = 11,\n    R18Plus = 12,\n    AdultsOnly = 13,\n    X18Plus = 14\n}"],
+  "mappings": ";AAAA,IAAY;CAAZ,SAAYA,YAAS;AAIjB,EAAAA,WAAAA,WAAA,eAAA,IAAA,EAAA,IAAA;AACA,EAAAA,WAAAA,WAAA,SAAA,IAAA,CAAA,IAAA;AACA,EAAAA,WAAAA,WAAA,eAAA,IAAA,CAAA,IAAA;AACA,EAAAA,WAAAA,WAAA,gBAAA,IAAA,CAAA,IAAA;AACA,EAAAA,WAAAA,WAAA,UAAA,IAAA,CAAA,IAAA;AACA,EAAAA,WAAAA,WAAA,GAAA,IAAA,CAAA,IAAA;AACA,EAAAA,WAAAA,WAAA,gBAAA,IAAA,CAAA,IAAA;AACA,EAAAA,WAAAA,WAAA,IAAA,IAAA,CAAA,IAAA;AACA,EAAAA,WAAAA,WAAA,cAAA,IAAA,CAAA,IAAA;AACA,EAAAA,WAAAA,WAAA,MAAA,IAAA,CAAA,IAAA;AACA,EAAAA,WAAAA,WAAA,cAAA,IAAA,CAAA,IAAA;AACA,EAAAA,WAAAA,WAAA,cAAA,IAAA,EAAA,IAAA;AACA,EAAAA,WAAAA,WAAA,QAAA,IAAA,EAAA,IAAA;AACA,EAAAA,WAAAA,WAAA,SAAA,IAAA,EAAA,IAAA;AACA,EAAAA,WAAAA,WAAA,YAAA,IAAA,EAAA,IAAA;AACA,EAAAA,WAAAA,WAAA,SAAA,IAAA,EAAA,IAAA;AACJ,GApBY,cAAA,YAAS,CAAA,EAAA;",
+  "names": ["AgeRating"]
+}

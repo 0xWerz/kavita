@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/sidenav/_components/manage-smart-filters/manage-smart-filters.component.scss"],
+  "sourcesContent": ["\nul {\n    margin:0;\n    padding: 0;\n\n    li {\n        padding: 0.5rem 1rem;\n        display: flex;\n        flex-direction: row;\n        justify-content: space-between;\n        align-items: center;\n        border-radius: 5px;\n        margin: 5px 0;\n        color: var(--list-group-hover-text-color);\n        background-color: var(--card-bg-color);\n\n        span {\n            cursor: pointer;\n        }\n    }\n}\n\n.red {\n  color: var(--error-color);\n}\n"],
+  "mappings": ";AACA;AACI,UAAA;AACA,WAAA;;AAEA,GAAA;AACI,WAAA,OAAA;AACA,WAAA;AACA,kBAAA;AACA,mBAAA;AACA,eAAA;AACA,iBAAA;AACA,UAAA,IAAA;AACA,SAAA,IAAA;AACA,oBAAA,IAAA;;AAEA,GAAA,GAAA;AACI,UAAA;;AAKZ,CAAA;AACE,SAAA,IAAA;;",
+  "names": []
+}

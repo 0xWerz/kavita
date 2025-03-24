@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/statistics/_components/file-breakdown-stats/file-breakdown-stats.component.scss"],
+  "sourcesContent": ["::ng-deep .advanced-pie-legend {\n    top: unset !important;\n    transform: unset !important;\n}\n\n.dashboard-card-content {\n    width: 100%;\n    height: 242px;\n    display: flex;\n    flex-flow: column;\n    box-sizing: border-box;\n}"],
+  "mappings": ";AAAA,UAAA,CAAA;AACI,OAAA;AACA,aAAA;;AAGJ,CAAA;AACI,SAAA;AACA,UAAA;AACA,WAAA;AACA,aAAA;AACA,cAAA;;",
+  "names": []
+}

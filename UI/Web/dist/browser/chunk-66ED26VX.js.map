@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/_pipes/provider-name.pipe.ts"],
+  "sourcesContent": ["import { Pipe, PipeTransform } from '@angular/core';\nimport {ScrobbleProvider} from \"../_services/scrobbling.service\";\n\n@Pipe({\n  name: 'providerName',\n  standalone: true\n})\nexport class ProviderNamePipe implements PipeTransform {\n\n  transform(value: ScrobbleProvider): string {\n    switch (value) {\n      case ScrobbleProvider.AniList:\n        return 'AniList';\n      case ScrobbleProvider.Mal:\n        return 'MAL';\n      case ScrobbleProvider.Kavita:\n        return 'Kavita';\n      case ScrobbleProvider.GoogleBooks:\n        return 'Google Books';\n    }\n  }\n\n}\n"],
+  "mappings": ";;;;;;;;AAOM,IAAO,mBAAP,MAAO,kBAAgB;EAE3B,UAAU,OAAuB;AAC/B,YAAQ,OAAO;MACb,KAAK,iBAAiB;AACpB,eAAO;MACT,KAAK,iBAAiB;AACpB,eAAO;MACT,KAAK,iBAAiB;AACpB,eAAO;MACT,KAAK,iBAAiB;AACpB,eAAO;IACX;EACF;;;uCAbW,mBAAgB;IAAA;EAAA;;2EAAhB,mBAAgB,MAAA,MAAA,YAAA,KAAA,CAAA;EAAA;;",
+  "names": []
+}

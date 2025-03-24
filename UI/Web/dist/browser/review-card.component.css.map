@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/_single-module/review-card/review-card.component.scss"],
+  "sourcesContent": [".review-card {\n  max-width: 320px;\n  max-height: 130px;\n  height: 130px;\n  width: 320px;\n}\n\n.profile-image {\n    font-size: 1.2rem;\n    padding: 20px;\n}\n\n.my-review {\n    position: absolute;\n    z-index: 20;\n    top: 38px;\n    left: 38px;\n}\n\n.fa-star {\n  color: var(--review-card-star-color);\n}\n\n.card-text {\n    font-size: 14px;\n}\n\n.card-title {\n    overflow: hidden;\n    width: 235px;\n    word-break: break-all;\n    height: 20px;\n}\n\n.card-text.no-images {\n    text-overflow: ellipsis;\n    overflow: hidden;\n}\n\n.no-images img {\n    display: none;\n}\n\n.card-footer {\n    font-size: 13px;\n    display: flex;\n    max-width: 319px;\n    justify-content: space-between;\n    margin: 0 auto;\n\n    & > * {\n        margin: 0 5px;\n        display: inline-flex;\n    }\n}\n\n.card-body {\n    display: block;\n    visibility: visible;\n    min-height: 93.5px;\n    max-height: 93.5px;\n}"],
+  "mappings": ";AAAA,CAAA;AACE,aAAA;AACA,cAAA;AACA,UAAA;AACA,SAAA;;AAGF,CAAA;AACI,aAAA;AACA,WAAA;;AAGJ,CAAA;AACI,YAAA;AACA,WAAA;AACA,OAAA;AACA,QAAA;;AAGJ,CAAA;AACE,SAAA,IAAA;;AAGF,CAAA;AACI,aAAA;;AAGJ,CAAA;AACI,YAAA;AACA,SAAA;AACA,cAAA;AACA,UAAA;;AAGJ,CAXA,SAWA,CAAA;AACI,iBAAA;AACA,YAAA;;AAGJ,CALA,UAKA;AACI,WAAA;;AAGJ,CAAA;AACI,aAAA;AACA,WAAA;AACA,aAAA;AACA,mBAAA;AACA,UAAA,EAAA;;AAEA,CAPJ,YAOI,EAAA;AACI,UAAA,EAAA;AACA,WAAA;;AAIR,CAAA;AACI,WAAA;AACA,cAAA;AACA,cAAA;AACA,cAAA;;",
+  "names": []
+}

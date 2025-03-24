@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/_pipes/read-time.pipe.ts"],
+  "sourcesContent": ["import { Pipe, PipeTransform } from '@angular/core';\nimport {IHasReadingTime} from \"../_models/common/i-has-reading-time\";\nimport {TranslocoService} from \"@jsverse/transloco\";\n\n@Pipe({\n  name: 'readTime',\n  standalone: true\n})\nexport class ReadTimePipe implements PipeTransform {\n  constructor(private translocoService: TranslocoService) {}\n\n  transform(readingTime: IHasReadingTime): string {\n    if (readingTime.maxHoursToRead === 0 || readingTime.minHoursToRead === 0) {\n        return this.translocoService.translate('read-time-pipe.less-than-hour');\n    } else {\n      return `${readingTime.minHoursToRead}${readingTime.maxHoursToRead !== readingTime.minHoursToRead ? ('-' + readingTime.maxHoursToRead) : ''}` +\n        ` ${readingTime.minHoursToRead > 1 ? this.translocoService.translate('read-time-pipe.hours') : this.translocoService.translate('read-time-pipe.hour')}`;\n    }\n  }\n\n}\n"],
+  "mappings": ";;;;;;;AAQM,IAAO,eAAP,MAAO,cAAY;EACvB,YAAoB,kBAAkC;AAAlC,SAAA,mBAAA;EAAqC;EAEzD,UAAU,aAA4B;AACpC,QAAI,YAAY,mBAAmB,KAAK,YAAY,mBAAmB,GAAG;AACtE,aAAO,KAAK,iBAAiB,UAAU,+BAA+B;IAC1E,OAAO;AACL,aAAO,GAAG,YAAY,cAAc,GAAG,YAAY,mBAAmB,YAAY,iBAAkB,MAAM,YAAY,iBAAkB,EAAE,IACpI,YAAY,iBAAiB,IAAI,KAAK,iBAAiB,UAAU,sBAAsB,IAAI,KAAK,iBAAiB,UAAU,qBAAqB,CAAC;IACzJ;EACF;;;uCAVW,eAAY,4BAAA,kBAAA,EAAA,CAAA;IAAA;EAAA;;uEAAZ,eAAY,MAAA,MAAA,YAAA,KAAA,CAAA;EAAA;;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/collections/_components/all-collections/all-collections.component.scss"],
+  "sourcesContent": [".main-container {\n  margin-top: 10px;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,cAAA;;",
+  "names": []
+}

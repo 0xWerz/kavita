@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/registration/user-login/user-login.component.scss"],
+  "sourcesContent": [".btn {\n    width: 100%\n}\n\ndiv {\n    text-align: center;\n}\n\na {\n    font-size: 0.8rem;\n}\n\n.custom-input {\n    background-color: #343A40 !important;\n    color: #fff !important;\n    border-color: var(--login-input-border-color);\n    font-family: var(--login-input-font-family);\n\n    &:focus {\n        border-color: var(--login-input-border-color-focus);\n        box-shadow: var(--login-input-box-shadow-focus);\n    }\n\n    &::placeholder {\n        opacity: var(--login-input-placeholder-opacity);\n        color: var(--login-input-placeholder-color);\n        font-family: var(--login-input-font-family);\n      }\n}\n\n.invalid-feedback {\n    display: inline-block;\n    color: var(--bs-form-invalid-color);\n    font-family: var(--login-input-font-family);\n}\n\n.forgot-password {\n    a {\n        color: var(--login-forgot-password-color);\n        font-family: var(--login-input-font-family);\n    }\n}\n\n.sign-in {\n    .btn {\n        font-family: var(--login-input-font-family);\n    }\n}"],
+  "mappings": ";AAAA,CAAA;AACI,SAAA;;AAGJ;AACI,cAAA;;AAGJ;AACI,aAAA;;AAGJ,CAAA;AACI,oBAAA;AACA,SAAA;AACA,gBAAA,IAAA;AACA,eAAA,IAAA;;AAEA,CANJ,YAMI;AACI,gBAAA,IAAA;AACA,cAAA,IAAA;;AAGJ,CAXJ,YAWI;AACI,WAAA,IAAA;AACA,SAAA,IAAA;AACA,eAAA,IAAA;;AAIR,CAAA;AACI,WAAA;AACA,SAAA,IAAA;AACA,eAAA,IAAA;;AAIA,CAAA,gBAAA;AACI,SAAA,IAAA;AACA,eAAA,IAAA;;AAKJ,CAAA,QAAA,CA5CJ;AA6CQ,eAAA,IAAA;;",
+  "names": []
+}

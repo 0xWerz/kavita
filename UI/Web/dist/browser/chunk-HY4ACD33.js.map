@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/_guards/library-access.guard.ts"],
+  "sourcesContent": ["import { Injectable } from '@angular/core';\nimport { CanActivate, ActivatedRouteSnapshot, RouterStateSnapshot } from '@angular/router';\nimport { Observable, of } from 'rxjs';\nimport { MemberService } from '../_services/member.service';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class LibraryAccessGuard implements CanActivate {\n\n  constructor(private memberService: MemberService) {}\n\n  canActivate(next: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<boolean> {\n    const libraryId = parseInt(state.url.split('library/')[1], 10);\n    if (isNaN(libraryId)) return of(false);\n    return this.memberService.hasLibraryAccess(libraryId);\n  }\n}\n"],
+  "mappings": ";;;;;;;;;;AAQM,IAAO,qBAAP,MAAO,oBAAkB;EAE7B,YAAoB,eAA4B;AAA5B,SAAA,gBAAA;EAA+B;EAEnD,YAAY,MAA8B,OAA0B;AAClE,UAAM,YAAY,SAAS,MAAM,IAAI,MAAM,UAAU,EAAE,CAAC,GAAG,EAAE;AAC7D,QAAI,MAAM,SAAS;AAAG,aAAO,GAAG,KAAK;AACrC,WAAO,KAAK,cAAc,iBAAiB,SAAS;EACtD;;;uCARW,qBAAkB,mBAAA,aAAA,CAAA;IAAA;EAAA;;4DAAlB,qBAAkB,SAAlB,oBAAkB,WAAA,YAFjB,OAAM,CAAA;EAAA;;",
+  "names": []
+}

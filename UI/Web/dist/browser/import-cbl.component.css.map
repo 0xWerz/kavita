@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/reading-list/_components/import-cbl/import-cbl.component.scss"],
+  "sourcesContent": [".file-input {\n  display: none;\n}\n\n.heading-badge  {\n  color: var(--bs-badge-color);\n}\n\n::ng-deep .file-info {\n  width: 83%;\n  float: left;\n}\n\n::ng-deep .file-buttons {\n  float: right;\n}\n\nfile-upload {\n  background: none;\n  height: auto;\n}\n\n::ng-deep .upload-input {\n  color: var(--input-text-color) !important;\n}\n\n::ng-deep file-upload-list-item {\n  color: var(--input-text-color) !important;\n}\n\n::ng-deep .remove-btn {\n  background: #C0392B;\n  border-radius: 3px;\n  color: var(--input-text-color) !important;\n  font-weight: bold;\n  padding: 3px 5px;\n}\n\n::ng-deep .reading-list-success--item {\n  color: var(--primary-color);\n}\n\n::ng-deep .reading-list-fail--item {\n  color: var(--error-color);\n}\n\n"],
+  "mappings": ";AAAA,CAAA;AACE,WAAA;;AAGF,CAAA;AACE,SAAA,IAAA;;AAGF,UAAA,CAAA;AACE,SAAA;AACA,SAAA;;AAGF,UAAA,CAAA;AACE,SAAA;;AAGF;AACE,cAAA;AACA,UAAA;;AAGF,UAAA,CAAA;AACE,SAAA,IAAA;;AAGF,UAAA;AACE,SAAA,IAAA;;AAGF,UAAA,CAAA;AACE,cAAA;AACA,iBAAA;AACA,SAAA,IAAA;AACA,eAAA;AACA,WAAA,IAAA;;AAGF,UAAA,CAAA;AACE,SAAA,IAAA;;AAGF,UAAA,CAAA;AACE,SAAA,IAAA;;",
+  "names": []
+}

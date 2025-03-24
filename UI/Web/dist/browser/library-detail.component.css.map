@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/library-detail/library-detail.component.scss"],
+  "sourcesContent": [".card {\n    height: 400;\n    width: 200;\n}\n\n.viewport {\n    width: 600px;\n    height: 100%;\n    overflow-y: auto;\n}\n\n\n.main-container {\n    margin-top: 10px;\n}"],
+  "mappings": ";AAAA,CAAA;AACI,UAAA;AACA,SAAA;;AAGJ,CAAA;AACI,SAAA;AACA,UAAA;AACA,cAAA;;AAIJ,CAAA;AACI,cAAA;;",
+  "names": []
+}

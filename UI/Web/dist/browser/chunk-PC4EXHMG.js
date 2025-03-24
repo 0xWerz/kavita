@@ -1,0 +1,71 @@
+import {
+  AgeRating
+} from "./chunk-6KPMHNEU.js";
+import {
+  TranslocoService,
+  inject,
+  of,
+  ɵɵdefinePipe
+} from "./chunk-PYHIUVNJ.js";
+
+// src/app/_pipes/age-rating.pipe.ts
+var AgeRatingPipe = class _AgeRatingPipe {
+  constructor() {
+    this.translocoService = inject(TranslocoService);
+  }
+  transform(value) {
+    if (value === void 0 || value === null)
+      return of(this.translocoService.translate("age-rating-pipe.unknown"));
+    if (value.hasOwnProperty("title")) {
+      return of(value.title);
+    }
+    switch (value) {
+      case AgeRating.Unknown:
+        return this.translocoService.translate("age-rating-pipe.unknown");
+      case AgeRating.EarlyChildhood:
+        return this.translocoService.translate("age-rating-pipe.early-childhood");
+      case AgeRating.AdultsOnly:
+        return this.translocoService.translate("age-rating-pipe.adults-only");
+      case AgeRating.Everyone:
+        return this.translocoService.translate("age-rating-pipe.everyone");
+      case AgeRating.Everyone10Plus:
+        return this.translocoService.translate("age-rating-pipe.everyone-10-plus");
+      case AgeRating.G:
+        return this.translocoService.translate("age-rating-pipe.g");
+      case AgeRating.KidsToAdults:
+        return this.translocoService.translate("age-rating-pipe.kids-to-adults");
+      case AgeRating.Mature:
+        return this.translocoService.translate("age-rating-pipe.mature");
+      case AgeRating.Mature15Plus:
+        return this.translocoService.translate("age-rating-pipe.ma15-plus");
+      case AgeRating.Mature17Plus:
+        return this.translocoService.translate("age-rating-pipe.mature-17-plus");
+      case AgeRating.RatingPending:
+        return this.translocoService.translate("age-rating-pipe.rating-pending");
+      case AgeRating.Teen:
+        return this.translocoService.translate("age-rating-pipe.teen");
+      case AgeRating.X18Plus:
+        return this.translocoService.translate("age-rating-pipe.x18-plus");
+      case AgeRating.NotApplicable:
+        return this.translocoService.translate("age-rating-pipe.not-applicable");
+      case AgeRating.PG:
+        return this.translocoService.translate("age-rating-pipe.pg");
+      case AgeRating.R18Plus:
+        return this.translocoService.translate("age-rating-pipe.r18-plus");
+    }
+    return of(this.translocoService.translate("age-rating-pipe.unknown"));
+  }
+  static {
+    this.\u0275fac = function AgeRatingPipe_Factory(__ngFactoryType__) {
+      return new (__ngFactoryType__ || _AgeRatingPipe)();
+    };
+  }
+  static {
+    this.\u0275pipe = \u0275\u0275definePipe({ name: "ageRating", type: _AgeRatingPipe, pure: true, standalone: true });
+  }
+};
+
+export {
+  AgeRatingPipe
+};
+//# sourceMappingURL=chunk-PC4EXHMG.js.map

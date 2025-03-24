@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/_models/manga-format.ts"],
+  "sourcesContent": ["export enum MangaFormat {\n    IMAGE = 0,\n    ARCHIVE = 1,\n    UNKNOWN = 2,\n    EPUB = 3,\n    PDF = 4\n}"],
+  "mappings": ";AAAA,IAAY;CAAZ,SAAYA,cAAW;AACnB,EAAAA,aAAAA,aAAA,OAAA,IAAA,CAAA,IAAA;AACA,EAAAA,aAAAA,aAAA,SAAA,IAAA,CAAA,IAAA;AACA,EAAAA,aAAAA,aAAA,SAAA,IAAA,CAAA,IAAA;AACA,EAAAA,aAAAA,aAAA,MAAA,IAAA,CAAA,IAAA;AACA,EAAAA,aAAAA,aAAA,KAAA,IAAA,CAAA,IAAA;AACJ,GANY,gBAAA,cAAW,CAAA,EAAA;",
+  "names": ["MangaFormat"]
+}

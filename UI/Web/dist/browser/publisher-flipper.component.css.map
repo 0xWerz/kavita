@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/_single-module/publisher-flipper/publisher-flipper.component.scss"],
+  "sourcesContent": ["//\n//.publisher-img-container {\n//  background-color: var(--card-bg-color);\n//  border-radius: 3px;\n//  padding: 2px 5px;\n//  font-size: 0.8rem;\n//  vertical-align: middle;\n//\n//  div {\n//    min-height: 32px;\n//    line-height: 32px;\n//  }\n//}\n\n// Animation code\n\n.publisher-wrapper {\n  perspective: 1000px;\n  height: 32px;\n\n  background-color: var(--card-bg-color);\n  border-radius: 3px;\n  padding: 2px 5px;\n  font-size: 0.8rem;\n  vertical-align: middle;\n\n  div {\n    min-height: 32px;\n    line-height: 32px;\n  }\n}\n\n.publisher-flipper {\n  position: relative;\n  width: 100%;\n  height: 100%;\n  text-align: left;\n  transition: transform 0.6s ease;\n  transform-style: preserve-3d;\n}\n\n.publisher-flipper.is-flipped {\n  transform: rotateX(180deg);\n}\n\n.publisher-side {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  backface-visibility: hidden;\n}\n\n.publisher-front {\n  z-index: 2;\n}\n\n.publisher-back {\n  transform: rotateX(180deg);\n}\n"],
+  "mappings": ";AAgBA,CAAA;AACE,eAAA;AACA,UAAA;AAEA,oBAAA,IAAA;AACA,iBAAA;AACA,WAAA,IAAA;AACA,aAAA;AACA,kBAAA;;AAEA,CAVF,kBAUE;AACE,cAAA;AACA,eAAA;;AAIJ,CAAA;AACE,YAAA;AACA,SAAA;AACA,UAAA;AACA,cAAA;AACA,cAAA,UAAA,KAAA;AACA,mBAAA;;AAGF,CATA,iBASA,CAAA;AACE,aAAA,QAAA;;AAGF,CAAA;AACE,YAAA;AACA,SAAA;AACA,UAAA;AACA,uBAAA;;AAGF,CAAA;AACE,WAAA;;AAGF,CAAA;AACE,aAAA,QAAA;;",
+  "names": []
+}

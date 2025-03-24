@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/_models/readers/book-page-layout-mode.ts", "src/app/_models/preferences/reading-direction.ts", "src/app/_models/preferences/writing-style.ts"],
+  "sourcesContent": ["export enum BookPageLayoutMode {\n    Default = 0,\n    Column1 = 1,\n    Column2 = 2,\n}", "/**\n * Direction the user is reading. Maps to the pagination method. Not applicable with ReaderMode.Webtoon\n */\nexport enum ReadingDirection {\n    LeftToRight = 0,\n    RightToLeft = 1\n}\n", "/*\n * Mode the user is reading the book in. Not applicable with ReaderMode.Webtoon\n */\nexport enum WritingStyle{\n  Horizontal = 0,\n  Vertical = 1,\n}\n"],
+  "mappings": ";AAAA,IAAY;CAAZ,SAAYA,qBAAkB;AAC1B,EAAAA,oBAAAA,oBAAA,SAAA,IAAA,CAAA,IAAA;AACA,EAAAA,oBAAAA,oBAAA,SAAA,IAAA,CAAA,IAAA;AACA,EAAAA,oBAAAA,oBAAA,SAAA,IAAA,CAAA,IAAA;AACJ,GAJY,uBAAA,qBAAkB,CAAA,EAAA;;;ACG9B,IAAY;CAAZ,SAAYC,mBAAgB;AACxB,EAAAA,kBAAAA,kBAAA,aAAA,IAAA,CAAA,IAAA;AACA,EAAAA,kBAAAA,kBAAA,aAAA,IAAA,CAAA,IAAA;AACJ,GAHY,qBAAA,mBAAgB,CAAA,EAAA;;;ACA5B,IAAY;CAAZ,SAAYC,eAAY;AACtB,EAAAA,cAAAA,cAAA,YAAA,IAAA,CAAA,IAAA;AACA,EAAAA,cAAAA,cAAA,UAAA,IAAA,CAAA,IAAA;AACF,GAHY,iBAAA,eAAY,CAAA,EAAA;",
+  "names": ["BookPageLayoutMode", "ReadingDirection", "WritingStyle"]
+}

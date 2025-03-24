@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/data-structures/stack.ts"],
+  "sourcesContent": ["export class Stack<T> {\n    items: T[];\n  \n    constructor() {\n      this.items = [];\n    }\n  \n    isEmpty() {\n      return this.items.length === 0;\n    }\n  \n    peek() {\n      if (!this.isEmpty()) {\n        return this.items[this.items.length - 1];\n      }\n      return undefined;\n    }\n  \n    pop() {\n      if (this.isEmpty()) {\n        return undefined;\n      }\n      return this.items.pop();\n    }\n  \n    push(item: T) {\n      this.items.push(item);\n    }\n  }"],
+  "mappings": ";AAAM,IAAO,QAAP,MAAY;EAGd,cAAA;AACE,SAAK,QAAQ,CAAA;EACf;EAEA,UAAO;AACL,WAAO,KAAK,MAAM,WAAW;EAC/B;EAEA,OAAI;AACF,QAAI,CAAC,KAAK,QAAO,GAAI;AACnB,aAAO,KAAK,MAAM,KAAK,MAAM,SAAS,CAAC;IACzC;AACA,WAAO;EACT;EAEA,MAAG;AACD,QAAI,KAAK,QAAO,GAAI;AAClB,aAAO;IACT;AACA,WAAO,KAAK,MAAM,IAAG;EACvB;EAEA,KAAK,MAAO;AACV,SAAK,MAAM,KAAK,IAAI;EACtB;;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/statistics/_components/stat-list/stat-list.component.scss"],
+  "sourcesContent": [".card {\n    border: var(--bs-card-border-width) solid var(--bs-card-border-color);\n}\n\n.underline {\n    text-decoration: underline;\n    cursor: pointer;\n}"],
+  "mappings": ";AAAA,CAAA;AACI,UAAA,IAAA,wBAAA,MAAA,IAAA;;AAGJ,CAAA;AACI,mBAAA;AACA,UAAA;;",
+  "names": []
+}

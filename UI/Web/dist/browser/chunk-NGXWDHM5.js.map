@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/_pipes/filter.pipe.ts"],
+  "sourcesContent": ["import { Pipe, PipeTransform } from '@angular/core';\n\n@Pipe({\n  name: 'filter',\n  pure: false,\n  standalone: true\n})\nexport class FilterPipe implements PipeTransform {\n\n  transform(items: any[], callback: (item: any) => boolean): any {\n    if (!items || !callback) {\n        return items;\n    }\n    const ret = items.filter(item => callback(item));\n    if (ret.length === items.length) return items; // This will prevent a re-render\n    return ret;\n  }\n\n}\n"],
+  "mappings": ";;;;;AAOM,IAAO,aAAP,MAAO,YAAU;EAErB,UAAU,OAAc,UAAgC;AACtD,QAAI,CAAC,SAAS,CAAC,UAAU;AACrB,aAAO;IACX;AACA,UAAM,MAAM,MAAM,OAAO,UAAQ,SAAS,IAAI,CAAC;AAC/C,QAAI,IAAI,WAAW,MAAM;AAAQ,aAAO;AACxC,WAAO;EACT;;;uCATW,aAAU;IAAA;EAAA;;qEAAV,aAAU,MAAA,OAAA,YAAA,KAAA,CAAA;EAAA;;",
+  "names": []
+}

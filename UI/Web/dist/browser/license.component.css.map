@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/admin/license/license.component.scss"],
+  "sourcesContent": [".error {\n  color: var(--error-color);\n}\n\n.successful-validation {\n    color: var(--primary-color);\n}\n\n.custom-position {\n  right: 15px;\n  top: -42px;\n}\n\n.custom-position-2 {\n  right: 160px;\n  top: -42px;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,SAAA,IAAA;;AAGF,CAAA;AACI,SAAA,IAAA;;AAGJ,CAAA;AACE,SAAA;AACA,OAAA;;AAGF,CAAA;AACE,SAAA;AACA,OAAA;;",
+  "names": []
+}

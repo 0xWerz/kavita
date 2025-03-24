@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/_single-module/card-actionables/card-actionables.component.scss"],
+  "sourcesContent": [".dropdown-toggle:after {\n    content: none !important;\n}\n\n.submenu-toggle {\n    display: block;\n    width: 100%;\n    padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);\n    font-weight: 400;\n    text-align: inherit;\n    border: 0;\n    color: var(--dropdown-item-text-color);\n    background-color: var(--dropdown-item-bg-color);\n    &:hover {\n        color: var(--dropdown-item-text-color);\n        background-color: var(--dropdown-item-hover-bg-color);\n        cursor: pointer;\n    }\n    &:focus-visible {\n        color: var(--dropdown-item-text-color);\n        background-color: var(--dropdown-item-hover-bg-color);\n    }\n}\n\n.submenu-icon {\n    float: right;\n    padding: var(--bs-dropdown-item-padding-y) 0;\n}\n\n.btn {\n    padding: 5px;\n}\n\n// Robbie added this but it broke most of the uses\n//.dropdown-toggle {\n//    padding-top: 0;\n//    padding-bottom: 0;\n//}\n"],
+  "mappings": ";AAAA,CAAA,eAAA;AACI,WAAA;;AAGJ,CAAA;AACI,WAAA;AACA,SAAA;AACA,WAAA,IAAA,8BAAA,IAAA;AACA,eAAA;AACA,cAAA;AACA,UAAA;AACA,SAAA,IAAA;AACA,oBAAA,IAAA;;AACA,CATJ,cASI;AACI,SAAA,IAAA;AACA,oBAAA,IAAA;AACA,UAAA;;AAEJ,CAdJ,cAcI;AACI,SAAA,IAAA;AACA,oBAAA,IAAA;;AAIR,CAAA;AACI,SAAA;AACA,WAAA,IAAA,8BAAA;;AAGJ,CAAA;AACI,WAAA;;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/_pipes/provider-image.pipe.ts"],
+  "sourcesContent": ["import {Pipe, PipeTransform} from '@angular/core';\nimport {ScrobbleProvider} from \"../_services/scrobbling.service\";\n\n@Pipe({\n  name: 'providerImage',\n  standalone: true\n})\nexport class ProviderImagePipe implements PipeTransform {\n\n  transform(value: ScrobbleProvider, large: boolean = false): string {\n    switch (value) {\n      case ScrobbleProvider.AniList:\n        return `assets/images/ExternalServices/AniList${large ? '-lg' : ''}.png`;\n      case ScrobbleProvider.Mal:\n        return `assets/images/ExternalServices/MAL${large ? '-lg' : ''}.png`;\n      case ScrobbleProvider.GoogleBooks:\n        return `assets/images/ExternalServices/GoogleBooks${large ? '-lg' : ''}.png`;\n      case ScrobbleProvider.Kavita:\n        return `assets/images/logo-${large ? '64' : '32'}.png`;\n    }\n  }\n\n}\n"],
+  "mappings": ";;;;;;;;AAOM,IAAO,oBAAP,MAAO,mBAAiB;EAE5B,UAAU,OAAyB,QAAiB,OAAK;AACvD,YAAQ,OAAO;MACb,KAAK,iBAAiB;AACpB,eAAO,yCAAyC,QAAQ,QAAQ,EAAE;MACpE,KAAK,iBAAiB;AACpB,eAAO,qCAAqC,QAAQ,QAAQ,EAAE;MAChE,KAAK,iBAAiB;AACpB,eAAO,6CAA6C,QAAQ,QAAQ,EAAE;MACxE,KAAK,iBAAiB;AACpB,eAAO,sBAAsB,QAAQ,OAAO,IAAI;IACpD;EACF;;;uCAbW,oBAAiB;IAAA;EAAA;;4EAAjB,oBAAiB,MAAA,MAAA,YAAA,KAAA,CAAA;EAAA;;",
+  "names": []
+}

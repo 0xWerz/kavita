@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/bookmark/_components/bookmarks/bookmarks.component.scss"],
+  "sourcesContent": [".main-container {\n  margin-top: 10px;\n  padding: 0 0 0 10px;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,cAAA;AACA,WAAA,EAAA,EAAA,EAAA;;",
+  "names": []
+}

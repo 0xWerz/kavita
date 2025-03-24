@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/admin/manage-users/manage-users.component.scss"],
+  "sourcesContent": ["@import '../../../theme/variables';\n\n.presence {\n    font-size: 12px;\n    color: var(--primary-color);\n}\n\n.user-info > div {\n    margin-top: 3px;\n}\n\n.highlight {\n  color: var(--primary-color);\n}\n\n.pending-badge {\n  font-size: 12px;\n}\n\n.custom-position {\n  right: 15px;\n  top: -42px;\n}\n\n.member-name {\n  word-break: keep-all;\n  margin: 0;\n}\n\n.actions {\n  min-width: 152px;\n}\n\n.list-group-item:nth-child(even) {\n  background-color: var(--elevation-layer1);\n}\n\n.table {\n  @media (max-width: $grid-breakpoints-lg) {\n    overflow-x: auto;\n    width: 100% !important;\n    display: block;\n  }\n  .btn-container {\n    @media (max-width: $grid-breakpoints-lg) {\n      display: flex;\n      flex-direction: row;\n      flex-wrap: wrap;\n      align-items: center;\n      justify-content: center;\n    }\n    .btn {\n      width: 32px;\n    }\n  }\n}\n\n"],
+  "mappings": ";AAEA,CAAA;AACI,aAAA;AACA,SAAA,IAAA;;AAGJ,CAAA,UAAA,EAAA;AACI,cAAA;;AAGJ,CAAA;AACE,SAAA,IAAA;;AAGF,CAAA;AACE,aAAA;;AAGF,CAAA;AACE,SAAA;AACA,OAAA;;AAGF,CAAA;AACE,cAAA;AACA,UAAA;;AAGF,CAAA;AACE,aAAA;;AAGF,CAAA,eAAA;AACE,oBAAA,IAAA;;AAIA,OAAA,CAAA,SAAA,EAAA;AADF,GAAA;AAEI,gBAAA;AACA,WAAA;AACA,aAAA;;;AAGA,OAAA,CAAA,SAAA,EAAA;AADF,GANF,MAME,CAAA;AAEI,aAAA;AACA,oBAAA;AACA,eAAA;AACA,iBAAA;AACA,qBAAA;;;AAEF,CAdJ,MAcI,CARF,cAQE,CAAA;AACE,SAAA;;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/_single-module/match-series-result-item/match-series-result-item.component.scss"],
+  "sourcesContent": [".search-result {\n    img {\n        max-width: 100px;\n        min-width: 100px;\n    }\n}\n.title {\n    font-size: 1.2rem;\n    font-weight: bold;\n    margin: 0;\n    padding: 0;\n}\n\n.match-item-container {\n    &.dark {\n        background-color: var(--elevation-layer6-dark);\n    }\n\n    &.light {\n        background-color: var(--elevation-layer6);\n    }\n    border-radius: 15px;\n\n    &:hover {\n        &.dark {\n            background-color: var(--elevation-layer11-dark);\n        }\n\n        &.light {\n            background-color: var(--elevation-layer11);\n        }\n    }\n}"],
+  "mappings": ";AACI,CAAA,cAAA;AACI,aAAA;AACA,aAAA;;AAGR,CAAA;AACI,aAAA;AACA,eAAA;AACA,UAAA;AACA,WAAA;;AAGJ,CAAA;AAQI,iBAAA;;AAPA,CADJ,oBACI,CAAA;AACI,oBAAA,IAAA;;AAGJ,CALJ,oBAKI,CAAA;AACI,oBAAA,IAAA;;AAKA,CAXR,oBAWQ,MAAA,CAVJ;AAWQ,oBAAA,IAAA;;AAGJ,CAfR,oBAeQ,MAAA,CAVJ;AAWQ,oBAAA,IAAA;;",
+  "names": []
+}

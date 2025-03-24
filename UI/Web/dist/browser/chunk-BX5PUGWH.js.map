@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/_models/metadata/v2/query-context.ts"],
+  "sourcesContent": ["export enum QueryContext\n{\n  None = 1,\n  Search = 2,\n  Recommended = 3,\n  Dashboard = 4,\n}\n"],
+  "mappings": ";AAAA,IAAY;CAAZ,SAAYA,eAAY;AAEtB,EAAAA,cAAAA,cAAA,MAAA,IAAA,CAAA,IAAA;AACA,EAAAA,cAAAA,cAAA,QAAA,IAAA,CAAA,IAAA;AACA,EAAAA,cAAAA,cAAA,aAAA,IAAA,CAAA,IAAA;AACA,EAAAA,cAAAA,cAAA,WAAA,IAAA,CAAA,IAAA;AACF,GANY,iBAAA,eAAY,CAAA,EAAA;",
+  "names": ["QueryContext"]
+}

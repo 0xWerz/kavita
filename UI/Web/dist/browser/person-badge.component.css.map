@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/person-badge/person-badge.component.scss"],
+  "sourcesContent": ["@import '../../../theme/_variables.scss';\n\n.tagbadge {\n    background-color: var(--tagbadge-bg-color);\n    transition: all .3s ease-out;\n    margin: 3px 10px 3px 0px;\n    border-radius: 6px;\n    font-size: .8rem;\n    display: inline-block;\n    cursor: pointer;\n    width: 96px;\n    word-break: break-word;\n\n    i {\n        max-height: 48px;\n        height: 48px;\n        width: 48px;\n        font-size: 2.96rem;\n        font-weight: bold;\n        cursor: pointer;\n    }\n\n    .image-container {\n        background: var(--card-bg-color);\n        max-height: 96px;\n        height: 96px;\n        width: 96px;\n        border-radius: 50%;\n        overflow: hidden;\n    }\n}"],
+  "mappings": ";AAEA,CAAA;AACI,oBAAA,IAAA;AACA,cAAA,IAAA,KAAA;AACA,UAAA,IAAA,KAAA,IAAA;AACA,iBAAA;AACA,aAAA;AACA,WAAA;AACA,UAAA;AACA,SAAA;AACA,cAAA;;AAEA,CAXJ,SAWI;AACI,cAAA;AACA,UAAA;AACA,SAAA;AACA,aAAA;AACA,eAAA;AACA,UAAA;;AAGJ,CApBJ,SAoBI,CAAA;AACI,cAAA,IAAA;AACA,cAAA;AACA,UAAA;AACA,SAAA;AACA,iBAAA;AACA,YAAA;;",
+  "names": []
+}

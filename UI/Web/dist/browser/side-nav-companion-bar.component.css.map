@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/sidenav/_components/side-nav-companion-bar/side-nav-companion-bar.component.scss"],
+  "sourcesContent": [".hide-if-empty:empty {\n    display: none !important;\n}\n\n.btn-icon {\n  position: relative;\n}\n\n.icon-position {\n  position: absolute;\n  top: -2px;\n  right: -2px;\n  font-size: 0.8em;\n  color: var(--primary-color);\n}\n\n@keyframes spin {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n.icon-position.active {\n  animation: spin 3.3s linear infinite;\n}\n\n.icon-container::after {\n  content: '';\n  position: absolute;\n  left: 10px;\n  bottom: -4px;\n  width: 23px;\n  height: 2px;\n  background-color: var(--primary-color);\n  transition: width 0.3s ease, left 0.3s ease;\n}\n"],
+  "mappings": ";AAAA,CAAA,aAAA;AACI,WAAA;;AAGJ,CAAA;AACE,YAAA;;AAGF,CAAA;AACE,YAAA;AACA,OAAA;AACA,SAAA;AACA,aAAA;AACA,SAAA,IAAA;;AAGF,WAAA;AACE;AACE,eAAA,OAAA;;AAEF;AACE,eAAA,OAAA;;;AAIJ,CAjBA,aAiBA,CAAA;AACE,aAAA,KAAA,KAAA,OAAA;;AAGF,CAAA,cAAA;AACE,WAAA;AACA,YAAA;AACA,QAAA;AACA,UAAA;AACA,SAAA;AACA,UAAA;AACA,oBAAA,IAAA;AACA,cAAA,MAAA,KAAA,IAAA,EAAA,KAAA,KAAA;;",
+  "names": []
+}
